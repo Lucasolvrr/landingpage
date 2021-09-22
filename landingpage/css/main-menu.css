@@ -1,0 +1,28 @@
+.header .main-menu {
+
+    background-color: rgb(123, 67, 168);
+    text-align: right;
+}
+
+.header .main-menu .menu-item {
+
+    display: inline-block;
+    margin: 20px 2px 32px 10px;
+}
+
+.header .main-menu .menu-item a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 16px;
+    background:rgb(123, 67, 168);
+    border-radius: 7px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.header .main-menu .menu-item a:hover {
+    background-color: #48A3A6;
+}
